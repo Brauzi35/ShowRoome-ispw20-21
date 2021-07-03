@@ -27,7 +27,7 @@
   <head>
     <title>Prova</title>
   </head>
-  <body style=" height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
+  <body style=" height: 514px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
  
 
