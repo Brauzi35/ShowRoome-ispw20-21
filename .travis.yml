@@ -1,5 +1,0 @@
-  
-language: java
-jdk:
-- openjdk15
-script: ant build
