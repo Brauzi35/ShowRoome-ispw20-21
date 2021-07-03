@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="1024.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logic.controller.ControllerSSUser">
+   <children>
+      <AnchorPane fx:id="mainPane" layoutX="16.0" layoutY="10.0" prefHeight="557.0" prefWidth="992.0" style="-fx-background-color: white; -fx-border-color: purple; -fx-border-width: 3; -fx-background-radius: 10; -fx-border-radius: 10;" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <ListView fx:id="listViewSpShows" layoutX="14.0" layoutY="14.0" prefHeight="528.0" prefWidth="192.0" />
+            <AnchorPane fx:id="artistPane" layoutX="214.0" layoutY="14.0" prefHeight="147.0" prefWidth="764.0" style="-fx-background-color: purple; -fx-border-color: purple; -fx-border-width: 3; -fx-background-radius: 10; -fx-border-radius: 10;">
+               <children>
+                  <Label fx:id="descriptionLabel" alignment="TOP_LEFT" layoutX="17.0" layoutY="10.0" prefHeight="141.0" prefWidth="731.0" text="Select a show from the list on the left" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane layoutX="214.0" layoutY="184.0" minHeight="0.0" minWidth="0.0" prefHeight="358.0" prefWidth="764.0" style="-fx-background-color: purple; -fx-background-radius: 10; -fx-border-radius: 10;">
+               <children>
+                  <Label fx:id="titleLabel" alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="731.0" text="Title" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="locationLabel" alignment="TOP_LEFT" layoutX="16.0" layoutY="76.0" prefHeight="39.0" prefWidth="731.0" text="Location" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="capacityLabel" alignment="TOP_LEFT" layoutX="16.0" layoutY="142.0" prefHeight="39.0" prefWidth="731.0" text="Capacity" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="artistLabel" alignment="TOP_LEFT" layoutX="16.0" layoutY="207.0" prefHeight="39.0" prefWidth="731.0" text="Artist" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

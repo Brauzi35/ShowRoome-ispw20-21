@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#451052" height="65.0" stroke="#451052" strokeType="INSIDE" width="1024.0" />
+      <JFXComboBox focusColor="#451052" layoutX="17.0" layoutY="16.0" prefHeight="29.0" prefWidth="279.0" promptText="Type of artist" style="-fx-background-color: white;" unFocusColor="#451052" />
+      <JFXComboBox focusColor="#451052" layoutX="367.0" layoutY="19.0" prefHeight="29.0" prefWidth="279.0" promptText="District" style="-fx-background-color: white;" unFocusColor="#451052" />
+      <JFXComboBox focusColor="#451052" layoutX="714.0" layoutY="17.0" prefHeight="29.0" prefWidth="279.0" promptText="Review" style="-fx-background-color: white;" unFocusColor="#451052" />
+   </children>
+</AnchorPane>

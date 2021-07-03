@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="1024.0" style="-fx-background-color: #aaa6bf;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logic.controller.ControllerHomepage2">
+   <children>
+      <Pane layoutX="35.0" layoutY="97.0" prefHeight="83.0" prefWidth="775.0" style="-fx-background-color: #6a6565;">
+         <children>
+            <Label fx:id="nameLabel1" layoutX="2.0" layoutY="-11.0" prefHeight="45.0" prefWidth="775.0" text="Orazio sferantoni" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="37.0" prefHeight="35.0" prefWidth="171.0" text="Descrizione:" textFill="PURPLE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="descriptionLabel1" layoutX="12.0" layoutY="63.0" prefHeight="16.0" prefWidth="763.0" text="Vieni a sentirmi nelle vie della capitale , con il mio ritmo adatto sia a grandi che piccini il divertimento non mancherà di certo.">
+               <font>
+                  <Font name="SansSerif Regular" size="13.0" />
+               </font>
+            </Label>
+            <Line endX="866.6666870117188" layoutX="99.0" layoutY="132.0" startX="-100.0" strokeWidth="2.0" style="-fx-fill: grey;" />
+         </children>
+      </Pane>
+      <Button layoutX="884.0" layoutY="97.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #6a6565;" text="Dona" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="884.0" layoutY="150.0" mnemonicParsing="false" onMouseClicked="#caricainfo" prefHeight="17.0" prefWidth="121.0" style="-fx-background-color: #6a6565;" text="Info" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Pane layoutX="29.0" layoutY="260.0" prefHeight="83.0" prefWidth="775.0" style="-fx-background-color: #6a6565;">
+         <children>
+            <Label fx:id="nameLabel2" layoutX="2.0" layoutY="-11.0" prefHeight="45.0" prefWidth="775.0" text="Orazio sferantoni" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="37.0" prefHeight="35.0" prefWidth="171.0" text="Descrizione:" textFill="PURPLE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="descriptionLabel2" layoutX="12.0" layoutY="55.0" prefHeight="30.0" prefWidth="763.0" text="Vieni a sentirmi nelle vie della capitale , con il mio ritmo adatto sia a grandi che piccini il divertimento non mancherà di certo.">
+               <font>
+                  <Font name="SansSerif Regular" size="13.0" />
+               </font>
+            </Label>
+            <Line endX="866.6666870117188" layoutX="99.0" layoutY="124.0" startX="-100.0" strokeWidth="2.0" style="-fx-fill: grey;" />
+         </children>
+      </Pane>
+      <Button layoutX="884.0" layoutY="260.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #6a6565;" text="Dona" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="884.0" layoutY="313.0" mnemonicParsing="false" onMouseClicked="#caricainfo" prefHeight="17.0" prefWidth="121.0" style="-fx-background-color: #6a6565;" text="Info" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Pane layoutX="29.0" layoutY="418.0" prefHeight="83.0" prefWidth="775.0" style="-fx-background-color: #6a6565;">
+         <children>
+            <Label fx:id="nameLabel3" layoutX="2.0" layoutY="-11.0" prefHeight="45.0" prefWidth="775.0" text="Orazio sferantoni" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="37.0" prefHeight="35.0" prefWidth="171.0" text="Descrizione:" textFill="PURPLE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="descriptionLabel3" layoutX="11.0" layoutY="57.0" prefHeight="25.0" prefWidth="704.0" text="Vieni a sentirmi nelle vie della capitale , con il mio ritmo adatto sia a grandi che piccini il divertimento non mancherà di certo.">
+               <font>
+                  <Font name="SansSerif Regular" size="13.0" />
+               </font>
+            </Label>
+            <Line endX="866.6666870117188" layoutX="99.0" layoutY="124.0" startX="-100.0" strokeWidth="2.0" style="-fx-fill: grey;" />
+         </children>
+      </Pane>
+      <Button layoutX="884.0" layoutY="418.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #6a6565;" text="Dona" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="884.0" layoutY="471.0" mnemonicParsing="false" onMouseClicked="#caricainfo" prefHeight="17.0" prefWidth="121.0" style="-fx-background-color: #6a6565;" text="Info" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
